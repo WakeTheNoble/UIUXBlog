@@ -1,0 +1,170 @@
+/* Global Styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FFC18E;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #FC5185;
+}
+
+/* Header Styles */
+
+header {
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: top 0.3s;
+    color: #F5F5F5;
+  }
+  
+
+header h1 {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 0;
+    color: #F5F5F5;
+}
+header p {
+    padding: 0;
+    margin: 1rem;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #A4BC92;
+}
+
+/* Main Styles*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+article {
+    background-color: #F5F5F5;
+    color: #364F6B;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    padding: 2rem;
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 80%;
+}
+
+article h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: #FC5185;
+}
+
+article p {
+    margin: 1rem;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 1rem;
+    font-size: 0.8rem;
+}
+
+/* Primary color */
+
+header {
+    background-color: #73b9d7;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #2980b9;
+}
+
+/* Secondary Color */
+a {
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Background Color */
+body {
+    background-color: #364F6B;
+}
+
+/* Text Color */
+body {
+    color: #333;
+}
+
+/* Accent Color */
+footer {
+    background-color: #73b9d7;
+}
+
+footer a {
+    color: #fff;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 840px;
+    position: relative;
+    align-items: center;
+    padding-top: 3rem;
+}
